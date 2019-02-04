@@ -1,0 +1,73 @@
+body{
+
+	background: url(../img/fundo_01.jpg);
+	 background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.h1, h1 {
+    font-size: 36px;
+    font-family: 'Boldh1';
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+    	z-index: 1000;
+        background-color: #F9D3A0;
+        background-image: none!important;
+        height: 100vh!important;
+
+    }
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+.janelachat{
+	padding: 30px;
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.h1, h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.text, text {
+	font-size:21px;
+	color: #fff;
+}
+
+
+
+        bot.body { width: 500px; margin: 0 auto; margin-top: 20px; }
+        bot.div {  position: absolute; }
+        bot.input { width: 400px; }
+        bot.button { width: 50px; }
+        bot.textarea { width: 100%; }
+
+footer{
+	background-color: #002760;
+	bottom: 0;
+	height: 35px;
+	left: 0;
+    position: fixed;
+	width: 100%;
+	z-index: 100000;
+	padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "SemiBold";
+}
+
+.text-muted{
+	color:#fff!important;
+}
+
+

@@ -1,0 +1,284 @@
+/*-------------------
+       CHAT.PHP
+--------------------*/
+
+.chat{
+	background: url(../img/fundo_01.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+.text, text {
+	font-size:21px;
+	color: #fff;
+}
+
+        bot.body { width: 500px; margin: 0 auto; margin-top: 20px; }
+        bot.div {  position: absolute; }
+        bot.input { width: 400px; }
+        bot.button { width: 50px; }
+        bot.textarea { width: 100%; }
+
+footer{
+	background-color: #002760;
+	bottom: 0;
+	height: 35px;
+	left: 0;
+    position: fixed;
+	width: 100%;
+	z-index: 100000;
+	padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "SemiBold";
+}
+
+.text-muted{
+	color:#fff!important;
+}
+
+.janelachat{
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        z-index: 1000;
+        background-image: none!important;
+        height: 100vh!important;
+        width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+    }
+
+    .userText {
+        margin-left: 0px;
+    }
+
+    div.chatContainer {
+        width: 359px!important;
+    }
+
+    div.userText {
+        margin-left: 0; 
+        width:96%;
+    }
+
+    input#msgText {
+        width: 246px;
+    }
+
+}
+
+/*-----------------
+      FORM.PHP
+-------------------*/
+
+.fundo2{
+    background: url(../img/fundo_02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-check input{
+    float: left;
+   margin-top: -12px!important;
+    
+}
+
+.btenvia{
+    float: right;
+    border-radius: 4px 4px 0px 4px!important;
+    width: 120px;
+    height: 30px;
+    padding: 3px 5px!important;
+}
+
+.formContainer .flowChat .form-check .form-check-label{
+    color: #fff;
+    float: left;
+}
+
+.formContainer .flowChat{
+    background: #002760;
+    margin-top: -25px;
+    border-radius: 0 0 0 10px;
+    width: 70%;
+    height: auto;
+}
+.form-check{
+   display: table;
+    margin-bottom: -10px!important;
+}
+.flowChat form{
+    width: 100%;
+    padding: 40px;
+}
+.flowChat form input{
+   border-radius: 15px;
+   height: 45px;
+    color: #002760;
+       font-family: SemiBold;
+}
+
+h2{
+    color: #fff!important;
+    font-family: SemiBold!important;
+    font-size: 19px!important;
+    margin-top: 0px!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fundo2 {
+        z-index: 1000;
+        background-image: none!important;
+        height: 100vh!important;
+    }
+
+    .formContainer .flowChat{
+        width: 100%;
+    }
+
+    .flowChat form {
+        width: 100%;
+    }
+
+    div.flowChat {
+        left: 0;
+    }
+
+}
+
+/*-----------------
+      INDEX.PHP
+-------------------*/
+
+.fundo3{
+    background: url(../img/fundo_03.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botoesdecontato a{
+    background: #002760;
+    width: 210px;
+    color: #fff;
+    font-family: SemiBold;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+}
+
+.botoesdecontato .fas {
+    padding-right: 15px;
+    color: #01A0E1;
+    font-size: 20px;
+}
+
+.botoesdecontato{
+    margin-top: 25px;
+}
+
+.botoesdecontato a:hover{
+    color: #01A0E1;
+}
+
+.fundo3 .chatContainer{
+    display: none;
+}
+
+.h1, h1 {
+    font-size: 36px;
+    font-family: 'Boldh1';
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 595px) {
+    .divninabola {
+        display: none;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    .fundo3{
+        z-index: 1000;
+        height: 100vh!important;  
+    }
+
+    .p, p{
+        text-align: center;
+    }
+
+    .h1, h1 {
+        text-align: center;
+    }
+
+    .text, text{
+        font-size: 17px;
+    }
+
+    .botoesdecontato{
+        text-align: center;
+    }
+
+    .divninabola img{
+        display: block!important;
+        margin: 0px auto;
+        width: 120px;
+    }
+}
+
+/*----------------------
+        ENVIADO.PHP
+----------------------*/
+
+.enviado{
+    font-family: "SemiBold";
+}
+
+.bt-voltar{
+    border-radius: 4px 4px 0px 4px!important;
+    width: 120px;
+    height: 30px;
+    padding: 3px 5px!important;
+    color: #fff;
+    background: #002760;
+    border: none;
+    cursor: pointer;
+}
+
+.logoenviado{
+    padding: 5px;
+    width: auto;
+    margin: 20px 90px 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logoenviado{
+        padding: 5px;
+        width: auto;
+        margin: 20px 20px 90px;
+}
+}
+
+
